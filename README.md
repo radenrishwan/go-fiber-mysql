@@ -1,0 +1,1 @@
+Hasil project dari article [Membuat Restful API dengan GO Fiber dan MySQL](https://blog.mohamadrishwan.me/article/8ad6497e-8f76-406c-965a-3fd12c4e55be)

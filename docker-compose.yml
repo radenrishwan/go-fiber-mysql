@@ -1,0 +1,11 @@
+services:
+  database:
+    container_name: 'go-fiber-mysql' # nama container
+    image: mysql:latest
+    build:
+      context: .
+    ports:
+      - '3306:3306' # port yang dibuka ke local
+    environment:
+      MYSQL_ROOT_PASSWORD: root # password root
+      MYSQL_DATABASE: fiber_restful # nama database
